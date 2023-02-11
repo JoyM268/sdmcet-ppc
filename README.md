@@ -1,10 +1,11 @@
 #PPC Programs
 
-PPC Class Code Repository
+PPC Class Code Repository:
 
 Welcome to the PPC (Principles of Programming using C) Class Code Repository. This repository contains programs taught in the PPC class and is intended for use by students of the class.
 
 Contents:
+
 The repository currently contains 5 directories:
 
 1. Simple Programs: This directory contains basic programs demonstrating the concepts of variables, data types, and input/output operations in C.
@@ -20,7 +21,9 @@ The repository currently contains 5 directories:
 Please note that new directories will be added as new topics are taught in the PPC class.
 
 Usage:
+
 This repository is intended for use by students of the PPC class at SDMCET College. The code is provided for educational and personal use and students are free to use the code as they please.
 
 Note:
+
 If you have any questions or need clarification on the usage of the code in this repository, please contact the repository owner
