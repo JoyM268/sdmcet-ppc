@@ -1,6 +1,8 @@
+/*program to convert the number of days into the number of years, number of months, 
+and the number of the remaining days */
+/* Method 2 */
 #include <stdio.h>
 
-//Compiler version gcc  6.3.0
 main()
 {
   int days, years, months, remaining;
