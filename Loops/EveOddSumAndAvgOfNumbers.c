@@ -2,7 +2,7 @@
  numbers between range n1 and n2 */
 #include <stdio.h>
 
-int main()
+main()
 {
     int n1, n2;
     int sum_even = 0, sum_odd = 0;
