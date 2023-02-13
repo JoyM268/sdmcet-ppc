@@ -4,7 +4,8 @@
 int binary_to_decimal(long long n)
 {
     int decimal_num = 0, i = 0, remainder;
-    while (n != 0) {
+    while (n != 0) 
+    {
         remainder = n % 10;
         n /= 10;
         decimal_num += remainder * pow(2, i);
@@ -13,12 +14,11 @@ int binary_to_decimal(long long n)
     return decimal_num;
 }
 
-int main()
+main()
 {
     long long n;
     printf("Enter a binary number: ");
     scanf("%lld", &n);
 
     printf("Decimal equivalent of %lld is %d", n, binary_to_decimal(n));
-    return 0;
 }
