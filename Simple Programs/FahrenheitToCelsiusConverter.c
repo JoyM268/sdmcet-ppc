@@ -1,3 +1,4 @@
+/* Program to convert the given temperature in Fahrenheit to Celsius */
 #include <stdio.h>
 
 main() 
