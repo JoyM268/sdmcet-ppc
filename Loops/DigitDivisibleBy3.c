@@ -9,7 +9,7 @@ main()
   int num,remainder,count = 0;
   printf("Enter the number: ");
   scanf("%i",&num);
-  if(num >= 0)
+  if(num > 0)
   {
     while(num > 0)
     {
@@ -24,6 +24,6 @@ main()
   }
   else
   {
-    printf("The number entered cannot be negative\n");
+    printf("Error: The input can only be positive\n");
   }
 }
