@@ -20,5 +20,5 @@ main()
     printf("Enter a binary number: ");
     scanf("%lli", &n);
 
-    printf("Decimal equivalent of %lld is %i", n, binary_to_decimal(n));
+    printf("Decimal equivalent of %lli is %i", n, binary_to_decimal(n));
 }
