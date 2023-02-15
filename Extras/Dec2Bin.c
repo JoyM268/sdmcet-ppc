@@ -14,16 +14,16 @@ void decimal_to_binary(int n)
     }
 
     for (int j = i - 1; j >= 0; j--)
-        printf("%d", binary_num[j]);
+        printf("%i", binary_num[j]);
 }
 
 main()
 {
     int n;
     printf("Enter a decimal number: ");
-    scanf("%d", &n);
+    scanf("%i", &n);
 
-    printf("Binary equivalent of %d is ", n);
+    printf("Binary equivalent of %i is ", n);
     decimal_to_binary(n);
 
 }
