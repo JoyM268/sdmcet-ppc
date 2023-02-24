@@ -1,4 +1,4 @@
-/* Program to encrypt using cipher */
+/* Program to convert plain text to cipher text */
 #include<stdio.h>
 #include<string.h>
 main()
