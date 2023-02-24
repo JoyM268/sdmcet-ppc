@@ -15,10 +15,11 @@ main()
   }
   printf("Enter ciphertext: ");
   scanf("%s", ciphertext);
+  int stringlength = strlen(ciphertext);
   for(int key = 1; key < 26; key ++)
   {
     printf("The plaintext if key is %i: ",key);
-    for(int i = 0; i < strlen(ciphertext); i++)
+    for(int i = 0; i < stringlength; i++)
     {
       for(int j = 0; j < 26; j++)
       {
