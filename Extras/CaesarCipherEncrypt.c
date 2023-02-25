@@ -1,6 +1,5 @@
 /* Program to convert plaintext to ciphertext using
  caesar cipher*/
-/* Method 2 */
 #include<stdio.h>
 #include<string.h>
 main()
@@ -18,8 +17,9 @@ main()
   scanf("%s", plaintext);
   printf("Enter the key: ");
   scanf("%i",&key);
+  int stringlength = strlen(plaintext);
   printf("The ciphertext is: ");
-  for(int i = 0; i < strlen(plaintext); i++)
+  for(int i = 0; i < stringlength; i++)
   {
     for(int j = 0; j < 26; j++)
     {
