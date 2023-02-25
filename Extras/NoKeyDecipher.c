@@ -25,14 +25,14 @@ main()
       {
         if(ciphertext[i] == alph[j])
         {
-          if(j - key < 0)
+          D = (j - key) % 26;
+          if(D >= 0)
           {
-            D = (j - key + 26) % 26;
             printf("%c",alph[D]);
           }
           else
           {
-            D = (j - key) % 26;
+            D = D + 26;
             printf("%c",alph[D]);
           }
           break;
