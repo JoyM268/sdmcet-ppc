@@ -1,6 +1,5 @@
 /* Program to convert ciphertext to plaintext using
  caesar cipher*/
-/* Method 2 */
 #include<stdio.h>
 #include<string.h>
 main()
