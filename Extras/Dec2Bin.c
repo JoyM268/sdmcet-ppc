@@ -1,29 +1,19 @@
+/* Program to convert decimal number to binary */
 #include <stdio.h>
 
-void decimal_to_binary(int n)
+main()
 {
-    int binary_num[1000];
-
+    int n,binary_num[1000];
+    printf("Enter a decimal number: ");
+    scanf("%i", &n);
     int i = 0;
     while (n > 0)
     {
-
         binary_num[i] = n % 2;
         n = n / 2;
         i++;
     }
-
+    printf("Binary equivalent of %i is ", n);
     for (int j = i - 1; j >= 0; j--)
         printf("%i", binary_num[j]);
-}
-
-main()
-{
-    int n;
-    printf("Enter a decimal number: ");
-    scanf("%i", &n);
-
-    printf("Binary equivalent of %i is ", n);
-    decimal_to_binary(n);
-
 }
