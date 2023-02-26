@@ -8,6 +8,7 @@ main()
     printf("Enter a binary number: ");
     scanf("%lli", &n);
     int decimal_num = 0, i = 0, remainder;
+    int m = n;
     while (n != 0) 
     {
         remainder = n % 10;
@@ -15,5 +16,5 @@ main()
         decimal_num += remainder * pow(2, i);
         ++i;
     }
-    printf("Decimal equivalent of %lli is %i", n, decimal_num);
+    printf("Decimal equivalent of %lli is %i", m, decimal_num);
 }
