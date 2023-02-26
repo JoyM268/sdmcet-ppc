@@ -1,8 +1,12 @@
+/* Program to convert binary to decimal */
 #include <stdio.h>
 #include <math.h>
 
-int binary_to_decimal(long long n)
+main()
 {
+    long long n;
+    printf("Enter a binary number: ");
+    scanf("%lli", &n);
     int decimal_num = 0, i = 0, remainder;
     while (n != 0) 
     {
@@ -11,14 +15,5 @@ int binary_to_decimal(long long n)
         decimal_num += remainder * pow(2, i);
         ++i;
     }
-    return decimal_num;
-}
-
-main()
-{
-    long long n;
-    printf("Enter a binary number: ");
-    scanf("%lli", &n);
-
-    printf("Decimal equivalent of %lli is %i", n, binary_to_decimal(n));
+    printf("Decimal equivalent of %lli is %i", n, decimal_num);
 }
