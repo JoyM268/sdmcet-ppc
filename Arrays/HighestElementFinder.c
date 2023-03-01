@@ -1,10 +1,10 @@
 /* Program to find the highest element in the given list
-of elements */
+of elements with position */
 #include <stdio.h>
 
 main() 
 {
-    int n, max;
+    int n, max,pos;
     printf("Enter the number of elements: ");
     scanf("%i", &n);
     int arr[n];
@@ -19,7 +19,9 @@ main()
         if (arr[i] > max) 
         {
             max = arr[i];
+            pos = i;
         }
     }
     printf("The highest element in the array is %i\n", max);
+    printf(" The position of the highest element is %i\n",pos);
 }
