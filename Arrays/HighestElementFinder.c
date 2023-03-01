@@ -23,5 +23,5 @@ main()
         }
     }
     printf("The highest element in the array is %i\n", max);
-    printf(" The position of the highest element is %i\n",pos);
+    printf("The position of the highest element is %i\n",pos);
 }
