@@ -1,4 +1,5 @@
 /* Program to count frequency of digits in an integer */
+/* Method 1 */
 #include<stdio.h>
 #define base 10
 
