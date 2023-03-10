@@ -2,13 +2,14 @@
 functions */
 #include<stdio.h>
 
-int factorial(int n);
+int factorial(int);
 main()
 {
   int n;
   printf("Enter a number: ");
   scanf("%i",&n);
-  printf("The factorial of %i is %i\n",n,factorial(n));
+  int res = factorial(n);
+  printf("The factorial of %i is %i\n",n,res);
 }
 int factorial(int n)
 {
