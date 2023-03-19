@@ -1,4 +1,5 @@
 /* Program to count the number of vowels in a string */
+/* Method 1 
 #include<stdio.h>
 #define SIZE 50
 main()
