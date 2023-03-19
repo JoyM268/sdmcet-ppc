@@ -3,7 +3,8 @@
 #define SIZE 50
 main()
 {
-  char str[SIZE],i,count = 0;
+  char str[SIZE];
+  int i,count = 0;
   puts("Enter the input string: ");
   gets(str);
   for(i = 0; str[i] != '\0'; i++)
