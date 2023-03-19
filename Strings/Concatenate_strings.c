@@ -4,7 +4,7 @@
 
 main()
 {
-  char str1[SIZE],str2[SIZE],str3[SIZE],i;
+  char str1[SIZE],str2[SIZE],str3[2*SIZE],i;
   printf("Enter two input strings: ");
   scanf("%s %s",str1,str2);
   int j = 0;
