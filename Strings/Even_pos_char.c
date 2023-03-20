@@ -14,6 +14,7 @@ main()
   {
     str2[j++] = str1[i];
   }
+  str2[j] = '\0';
   printf("String 1: %s\n",str1);
   printf("String 2: %s\n",str2);
 }
