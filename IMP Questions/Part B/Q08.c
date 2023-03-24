@@ -10,7 +10,7 @@ main()
   char str1[SIZE],str2[SIZE],i,len;
   printf("Enter input strings: ");
   scanf("%s",str1);
-  for(len = 0; str[Len] != '\0'; len++);
+  for(len = 0; str1[len] != '\0'; len++);
   int j = 0;
   for(i = len - 1; i >= 0; i--)
   {
