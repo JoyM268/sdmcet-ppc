@@ -2,7 +2,6 @@
 palindrome or not, without usingbuilt-in string 
 handling functions.*/
 #include<stdio.h>
-#include<string.h>
 #define SIZE 50
 
 main()
