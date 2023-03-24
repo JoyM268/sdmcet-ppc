@@ -1,5 +1,6 @@
 /* Write a C program to find the maximum and minimum 
-element in an array of nelements */
+element in an array of n
+elements */
 #include<stdio.h>
 #define SIZE 50
 
