@@ -1,5 +1,6 @@
 /* Write a C program that computes the mean, variance and
-standard deviation of nelements in an array */
+standard deviation of n
+elements in an array */
 #include <stdio.h>
 #include <math.h>
 
