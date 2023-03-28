@@ -1,5 +1,6 @@
 /* Write a C program, which calculates the roots of a 
-Quadratic Equation, given thevalues of a, b and c and 
+Quadratic Equation, given the
+values of a, b and c and 
 print the type of the roots and roots of the equation */
 #include<stdio.h>
 
