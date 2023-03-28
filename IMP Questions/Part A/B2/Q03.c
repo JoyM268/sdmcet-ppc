@@ -16,7 +16,7 @@ main()
     char ch = 'a';
     for(j = 0; j <= i; j++)
     {
-      printf("%c ",ch++);
+      printf("%c\t",ch++);
     }
     printf("\n");
   }
@@ -27,11 +27,11 @@ main()
     {
       if(i > j)
       {
-        printf("  ");
+        printf(" \t");
       }
       else
       {
-        printf("$ ");
+        printf("$\t");
       }
     }
     printf("\n");
