@@ -1,5 +1,6 @@
 /* Write a C program to check whether a string is 
-palindrome or not, without usingbuilt-in string 
+palindrome or not, without using
+built-in string 
 handling functions.*/
 #include<stdio.h>
 #define SIZE 50
