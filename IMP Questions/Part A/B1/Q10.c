@@ -1,7 +1,9 @@
 /* Write a C program to include two functions – 
-add (int , int) and subtract (int, int)and main () 
+add (int , int) and subtract (int, int)
+and main () 
 calls these functions to print the sum and difference of 
-2 input numberspassed as parameters from main */
+2 input numbers
+passed as parameters from main */
 #include <stdio.h>
 
 int add(int, int);
