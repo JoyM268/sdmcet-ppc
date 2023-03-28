@@ -1,5 +1,6 @@
 /* Write a C program to search an element from list of 
-‘n’ array elements using binarysearch technique */
+‘n’ array elements using binary
+search technique */
 #include<stdio.h>
 #define SIZE 50
 
