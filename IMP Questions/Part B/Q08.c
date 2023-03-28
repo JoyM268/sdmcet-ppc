@@ -6,7 +6,8 @@ handling functions.*/
 
 main()
 {
-  char str1[SIZE],str2[SIZE],i,len;
+  char str1[SIZE],str2[SIZE];
+  int i,len;
   printf("Enter input strings: ");
   scanf("%s",str1);
   for(len = 0; str1[len] != '\0'; len++);
