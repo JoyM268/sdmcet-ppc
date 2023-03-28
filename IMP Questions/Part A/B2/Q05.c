@@ -10,8 +10,6 @@ main()
   int firstterm = 0;
   int secondterm = 1;
   int thirdterm;
-
-
   if(n == 1)
   {
     printf("0\n");
