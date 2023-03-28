@@ -1,7 +1,9 @@
 /* Write a C Program to convert alphabets in a string 
-from lowercase to uppercase andvice versa, without 
+from lowercase to uppercase and
+vice versa, without 
 using built-in string handling functions. Print both 
-the originalstring and the modified string */
+the original
+string and the modified string */
 #include<stdio.h>
 #define SIZE 50
 
