@@ -1,5 +1,6 @@
 /* Write a C program to multiply two matrices of order 
-m x n and p x q and print theproduct matrix in the 
+m x n and p x q and print the
+product matrix in the 
 matrix format.[NOTE: Check the matrices for 
 multiplication compatibility.] */
 #include<stdio.h>
