@@ -12,7 +12,7 @@ main()
   int i,count_lwr,count_upr,count_digit,count_special;
   count_lwr = count_upr = count_digit = count_special = 0;
   printf("Enter a input string: ");
-  scanf("%s",str);
+  scanf("%[^\n]",str);
   for(i = 0; str[i] != '\0'; i++)
   {
     if(str[i] >= 'a' && str[i] <= 'z')
