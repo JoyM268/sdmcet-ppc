@@ -5,24 +5,23 @@ a prime number or not */
 
 main()
 {
-  int num,prime=1,remainder,i;
-  printf("Enter the number: ");
-  scanf("%i",&num);
-  for(i = 2; i <= sqrt(num); i++)
-  {
-    remainder = num % i;
-    if(remainder == 0)
+    int i, num, prime = 1;
+    printf("Enter a number: ");
+    scanf("%i",&num);
+    for(i = 2; i <= sqrt(num); i++)
     {
-      prime = 0;
-      break;
+        if(num % i == 0)
+        {
+            prime = 0;
+            break;
+        }
     }
-  }
-  if(prime == 1)
-  {
-    printf("%i is a prime number\n",num);
-  }
-  else
-  {
-    printf("%i is not a prime number\n",num);
-  }
+    if(prime == 1)
+    {
+        printf("%i is a prime number\n",num);
+    }
+    else
+    {
+        printf("%i is not a prime number\n",num);
+    }
 }
