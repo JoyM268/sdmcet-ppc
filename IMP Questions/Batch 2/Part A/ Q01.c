@@ -1,5 +1,6 @@
 /* Write a C program to find and print the area and
-perimeter of a circle whose radius isgiven */
+perimeter of a circle whose radius is
+given */
 #include <stdio.h>
 #define pi 3.142
 
