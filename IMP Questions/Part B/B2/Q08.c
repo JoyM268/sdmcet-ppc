@@ -3,9 +3,7 @@ them. If both are unequal then concatenate the 1st string
 with the 2nd and print the resultant string; if equal 
 print the success message along with the length of the 
 strings. */
-/* Method 2 */
-  
-  
+
 #include<stdio.h>
 #define SIZE 50
 
