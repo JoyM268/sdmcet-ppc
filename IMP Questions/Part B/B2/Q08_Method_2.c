@@ -4,13 +4,15 @@ with the 2nd and print the resultant string; if equal
 print the success message along with the length of the 
 strings. */
 /* Method 2 */
+  
+  
 #include<stdio.h>
 #define SIZE 50
 
 int compare(char[],char[]);
 main() 
 {
-  char str1[SIZE],str2[SIZE],str3[2*SIZE],len;
+  char str1[SIZE],str2[SIZE];
   printf("Enter input string 1: ");
   scanf("%[^\n]",str1);
   getchar();
@@ -18,17 +20,19 @@ main()
   scanf("%[^\n]",str2);
   if(compare(str1,str2) == 0)
   {
+    int len;
     for(len = 0; str1[len] != '\0'; len++);
-    printf("Both the strings are equal with a string lenght of %i\n",len);
+    printf("Both the strings are equal\n");
+    printf("The lenght of the string is %i\n",len);
   }
   else
   {
     int i,j = 0;
+    char str3[2*SIZE];
     for(i = 0; str1[i] != '\0'; i++)
     {
       str3[j++] = str1[i];
     }
-    str3[j++] = ' ';
     for(i = 0; str2[i] != '\0'; i++)
     {
       str3[j++] = str2[i];
@@ -40,25 +44,22 @@ main()
 int compare(char str1[SIZE],char str2[SIZE])
 {
   int i;
-  if(strlen(str1) != strlen(str2))
+  int len1,len2;
+  for(len1 = 0; str1[len1] != '\0'; len1++);
+  for(len2 = 0; str2[len2] != '\0'; len2++);
+  if(len1 != len2)
   {
     return 1;
-  }
-  int flag = 1;
-  for(i = 0; str1[i] != '\0'; i++)
-  {
-    if(str1[i] != str2[i])
-    {
-      flag = 0;
-      break;
-    }
-  }
-  if(flag == 1)
-  {
-    return 0;
   }
   else
   {
-    return 1;
+    for(i = 0; str1[i] != '\0'; i++)
+    {
+      if(str1[i] != str2[i])
+      {
+        return 1;
+      }
+    }
   }
+  return 0;
 }
