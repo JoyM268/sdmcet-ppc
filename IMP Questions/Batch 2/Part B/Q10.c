@@ -1,6 +1,8 @@
 /* Write a C program to read the values of n and r, and
-call a user defined functionfactorial() to compute 
-factorial of a number and calculate nCr and nPr*/
+call a user defined function
+factorial() to compute 
+factorial of a number and calculate nCr and nPr
+*/
 #include<stdio.h>
 
 int factorial(int);
