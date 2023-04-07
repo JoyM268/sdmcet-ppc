@@ -2,17 +2,15 @@
 their mean, variance and standard deviation */
 #include <stdio.h>
 #include <math.h>
+#define SIZE 50
 
 main() 
 {
-   int n, i;
+   int n, i, are[SIZE];
    float sum = 0, mean, variance, std_dev;
 
    printf("Enter the number of elements: ");
    scanf("%i", &n);
-
-   int arr[n];
-
    printf("Enter %i elements:\n", n);
    for (i = 0; i < n; i++) 
    {
