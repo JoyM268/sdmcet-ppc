@@ -6,7 +6,7 @@ their mean, variance and standard deviation */
 
 main() 
 {
-   int n, i, are[SIZE];
+   int n, i, arr[SIZE];
    float sum = 0, mean, variance, std_dev;
 
    printf("Enter the number of elements: ");
