@@ -9,12 +9,12 @@ when rows = 4 */
 
 main()
 {
-  int rows;
+  int rows,i,j;
   printf("Enter the number of rows: ");
   scanf("%i",&rows);
-  for(int i = 1; i <= rows; i++)
+  for(i = 1; i <= rows; i++)
   {
-    for(int j = 1; j <= i; j++)
+    for(j = 1; j <= i; j++)
     {
       printf("%i\t",j);
     }
