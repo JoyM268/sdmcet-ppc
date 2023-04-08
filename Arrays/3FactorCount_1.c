@@ -5,10 +5,11 @@ value entered is a negative number go back and read the
 n value again until positive number is entered */
 /* Method 1 */
 #include <stdio.h>
+#define SIZE 50
 
 main()
 {
-  int n,count = 0;
+  int n,count = 0,arr[SIZE];
   read:
   printf("Enter the number of elements: ");
   scanf("%i",&n);
@@ -17,7 +18,6 @@ main()
     printf("Enter a positive number\n");
     goto read;
   }
-  int arr[n];
   printf("Enter %i elements:\n",n);
   for(int i = 0; i < n; i++)
   {
