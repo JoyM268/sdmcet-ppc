@@ -9,20 +9,20 @@ when rows = 5 */
 #include<stdio.h>
 main()
 {
-  int rows;
+  int rows,i,j;
   printf("Enter the number of rows: ");
   scanf("%i",&rows);
-  for(int i = 1; i <= (rows/2)+1; i++)
+  for(i = 1; i <= (rows/2)+1; i++)
   {
-    for(int j = 1; j <= i; j++)
+    for(j = 1; j <= i; j++)
     {
       printf("*");
     }
     printf("\n");
   }
-  for(int i = (rows/2); i >= 1; i--)
+  for(i = (rows/2); i >= 1; i--)
   {
-    for(int j = 1; j <= i; j++)
+    for(j = 1; j <= i; j++)
     {
       printf("*");
     }
