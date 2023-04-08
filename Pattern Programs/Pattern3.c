@@ -10,12 +10,12 @@ when rows = 5 */
 
 main()
 {
-  int rows;
+  int rows,i,j;
   printf("Enter the number of rows: ");
   scanf("%i",&rows);
-  for(int i = 0; i < rows; i++)
+  for(i = 0; i < rows; i++)
   {
-    for(int j = 0; j < rows; j++)
+    for(j = 0; j < rows; j++)
     {
       if(i == (rows/2) && j == (rows/2))
       {
