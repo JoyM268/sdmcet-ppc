@@ -1,11 +1,12 @@
 /* Binary Search */
 #include<stdio.h>
+#define SIZE 50
+
  main()
  {
-   int i,n,found = 0,key;
+   int i,n,found = 0,key,arr[SIZE];
    printf("Enter the number of elements: ");
    scanf("%i",&n);
-   int arr[n];
    printf("Enter %i elements:\n",n);
    for(i = 0; i < n; i++)
    {
