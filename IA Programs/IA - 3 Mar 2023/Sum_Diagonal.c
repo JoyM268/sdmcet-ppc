@@ -1,4 +1,5 @@
-#include<stdio.h> 
+/* Program to find sum of all elements in the principal diagonal of a square matrix */ 
+ #include<stdio.h> 
  #include<stdlib.h> 
  #define ROW 10 
  #define COL 10 
