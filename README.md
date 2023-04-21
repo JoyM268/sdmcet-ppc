@@ -3,7 +3,7 @@
 <body>
 	<h1>PPC Programs</h1>
 	<p>Welcome to the "PPC Programs" Github repository! This repository is a comprehensive collection of all the programs taught in the PPC (Principles of Programming Using C) class of SDM College of Engineering and Technology, 2022 - 23. The programs cover topics in C programming such as ternary operator, conditional statements, loops, arrays, strings and functions.</p>
-	<p>This repository is contributed by the owner and does not have any license. The programs are intended for educational purposes.</p>
+	<p>This repository does not have any license. The programs are intended for educational purposes.</p>
 	<h2>Table of Contents</h2>
 	<ul>
 		<li><a href="#installation">Installation</a></li>
