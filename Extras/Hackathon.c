@@ -53,7 +53,7 @@ main()
 }
 void check_acc(int acc[][SIZE])
 {
-  int acc_num,i,j,prime = 0;
+  int acc_num,i,j,flag = 0;
   Read:
   printf("\nEnter the account number of the customer: ");
   scanf("%i",&acc_num);
@@ -61,11 +61,11 @@ void check_acc(int acc[][SIZE])
   {
     if(acc[i][0] == acc_num)
     {
-      prime = 1;
+      flag = 1;
       break;
     }
   }
-  if(prime == 0)
+  if(flag == 0)
   {
     printf("Invalid Account Number\n\n");
     goto Read;
